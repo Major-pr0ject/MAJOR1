@@ -1,0 +1,101 @@
+ PMA_token |s:32:"33497074386b53645b49542a51232129"; HMAC_secret |s:16:"tL=/r8^bMf0D;e[(";browser_access_time|a:2:{s:7:"default";i:1709113353;s:36:"971a843c-137e-e9d4-63cb-ab0d86983f76";i:1709114724;}relation|a:1:{i:1;a:41:{s:7:"version";s:5:"5.2.1";s:4:"user";N;s:2:"db";N;s:8:"bookmark";N;s:15:"central_columns";N;s:11:"column_info";N;s:17:"designer_settings";N;s:16:"export_templates";N;s:8:"favorite";N;s:7:"history";N;s:16:"navigationhiding";N;s:9:"pdf_pages";N;s:6:"recent";N;s:8:"relation";N;s:13:"savedsearches";N;s:12:"table_coords";N;s:10:"table_info";N;s:13:"table_uiprefs";N;s:8:"tracking";N;s:10:"userconfig";N;s:10:"usergroups";N;s:5:"users";N;s:12:"bookmarkwork";b:0;s:8:"mimework";b:0;s:18:"centralcolumnswork";b:0;s:8:"commwork";b:0;s:9:"menuswork";b:0;s:20:"designersettingswork";b:0;s:11:"displaywork";b:0;s:19:"exporttemplateswork";b:0;s:12:"favoritework";b:0;s:7:"navwork";b:0;s:7:"pdfwork";b:0;s:10:"recentwork";b:0;s:7:"relwork";b:0;s:17:"savedsearcheswork";b:0;s:11:"historywork";b:0;s:12:"trackingwork";b:0;s:11:"uiprefswork";b:0;s:14:"userconfigwork";b:0;s:8:"allworks";b:0;}}userconfig|a:2:{s:2:"db";a:1:{s:12:"Console/Mode";s:8:"collapse";}s:2:"ts";i:1709113347;}two_factor_check|b:1;cache|a:3:{s:8:"server_1";a:4:{s:15:"userprefs_mtime";i:1709113347;s:14:"userprefs_type";s:7:"session";s:12:"config_mtime";i:1447170388;s:9:"userprefs";a:1:{s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}}}s:13:"server_1_root";a:15:{s:17:"is_create_db_priv";b:1;s:14:"is_reload_priv";b:1;s:12:"db_to_create";s:0:"";s:30:"dbs_where_create_table_allowed";a:1:{i:0;s:1:"*";}s:11:"dbs_to_test";b:0;s:9:"proc_priv";b:1;s:10:"table_priv";b:1;s:8:"col_priv";b:1;s:7:"db_priv";b:1;s:11:"binary_logs";a:0:{}s:18:"menu-levels-server";a:13:{s:9:"databases";s:9:"Databases";s:3:"sql";s:3:"SQL";s:6:"status";s:6:"Status";s:6:"rights";s:5:"Users";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:8:"settings";s:8:"Settings";s:6:"binlog";s:10:"Binary log";s:11:"replication";s:11:"Replication";s:4:"vars";s:9:"Variables";s:7:"charset";s:8:"Charsets";s:7:"plugins";s:7:"Plugins";s:6:"engine";s:7:"Engines";}s:14:"menu-levels-db";a:14:{s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Search";s:5:"query";s:5:"Query";s:6:"export";s:6:"Export";s:6:"import";s:6:"Import";s:9:"operation";s:10:"Operations";s:10:"privileges";s:10:"Privileges";s:8:"routines";s:8:"Routines";s:6:"events";s:6:"Events";s:8:"triggers";s:8:"Triggers";s:8:"tracking";s:8:"Tracking";s:8:"designer";s:8:"Designer";s:15:"central_columns";s:15:"Central columns";}s:12:"is_superuser";b:1;s:14:"mysql_cur_user";s:14:"root@localhost";s:12:"is_grantuser";b:1;}s:13:"version_check";a:2:{s:8:"response";s:411:"{
+    "version": "5.2.1",
+    "date": "2023-02-08",
+    "releases": [
+        {
+            "version": "5.2.1",
+            "date": "2023-02-08",
+            "php_versions": ">=7.2,<8.3",
+            "mysql_versions": ">=5.5"
+        },
+        {
+            "version": "4.9.11",
+            "date": "2023-02-08",
+            "php_versions": ">=5.5,<8.0",
+            "mysql_versions": ">=5.5"
+        }
+    ]
+}";s:9:"timestamp";i:1709113291;}}tmpval|a:14:{s:14:"favoriteTables";a:1:{i:1;a:0:{}}s:12:"recentTables";a:1:{i:1;a:0:{}}s:5:"query";a:10:{s:32:"570235f59e4a3e25c45ced4620aa53a4";a:8:{s:3:"sql";s:500:"--
+-- Dumping data for table `remote_user_clientregister_model`
+--
+
+INSERT INTO `remote_user_clientregister_model` (`id`, `username`, `email`, `password`, `phoneno`, `country`, `state`, `city`, `address`, `gender`) VALUES
+(1, 'Rajesh', 'Rajesh123@gmail.com', 'Rajesh', '9535866270', 'India', 'Karnataka', 'Bangalore', '#8928,4th Cross,Vijayanagar', 'Male'),
+(2, 'Manjunath', 'tmksmanju13@gmail.com', 'Manjunath', '9535866270', 'India', 'Karnataka', 'Bangalore', '#892,4th Cross,Rajajinagar', 'Male');";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"3d618938087e59d615024c9200e58c62";a:8:{s:3:"sql";s:855:"-- --------------------------------------------------------
+
+--
+-- Table structure for table `remote_user_cyber_attack_detection_type`
+--
+
+CREATE TABLE IF NOT EXISTS `remote_user_cyber_attack_detection_type` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `datetime` varchar(3000) NOT NULL,
+  `host` varchar(3000) NOT NULL,
+  `RID` varchar(3000) NOT NULL,
+  `proto` varchar(3000) NOT NULL,
+  `spt` varchar(3000) NOT NULL,
+  `dtp` varchar(3000) NOT NULL,
+  `ipaddress` varchar(3000) NOT NULL,
+  `cc` varchar(3000) NOT NULL,
+  `country` varchar(3000) NOT NULL,
+  `locale` varchar(3000) NOT NULL,
+  `latitude` varchar(3000) NOT NULL,
+  `longitude` varchar(3000) NOT NULL,
+  `Sources` varchar(3000) NOT NULL,
+  `Prediction` varchar(3000) NOT NULL,
+  `idnumber` varchar(300) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"9321b165f005368995710fcb198d9efb";a:8:{s:3:"sql";s:1635:"--
+-- Dumping data for table `remote_user_cyber_attack_detection_type`
+--
+
+INSERT INTO `remote_user_cyber_attack_detection_type` (`id`, `datetime`, `host`, `RID`, `proto`, `spt`, `dtp`, `ipaddress`, `cc`, `country`, `locale`, `latitude`, `longitude`, `Sources`, `Prediction`, `idnumber`) VALUES
+(5, '03-03-13 22:29', 'groucho-oregon', '840591020', 'TCP', '2712', '23', '50.26.102.172', 'US', 'United States', 'Texas', '35.1613', '-101.879', 'https://malpedia.caad.fkie.fraunhofer.de/actor/blacktech', 'Cyber Attack Found', 'ci40330024'),
+(6, '03-03-13 22:38', 'groucho-tokyo', '621360428', 'TCP', '45855', '5900', '37.9.53.44', 'RU', 'Russia', 'St.-Petersburg', '59.8944', '30.2642', 'NA', 'No Cyber Attack Found', 'ci40330008'),
+(7, '03-03-13 22:48', 'groucho-singapore', '1033070424', 'TCP', '6000', '135', '61.147.103.88', 'CN', 'China', 'Jiangsu Sheng', '32.0617', '118.7778', 'https://www.npr.org/2020/01/24/799358557/behind-the-suspected-saudi-arabian-hacking-of-jeff-bezos-phone', 'No Cyber Attack Found', 'ci40329976'),
+(8, '03-03-13 22:58', 'groucho-singapore', '1033071474', 'TCP', '6000', '135', '61.147.107.114', 'CN', 'China', 'Jiangsu Sheng', '32.0617', '118.7778', 'https://www.cyberscoop.com/vietnam-coronavirus-china-apt32-fireeye/', 'No Cyber Attack Found', 'uu60510792'),
+(9, '03-03-13 23:08', 'groucho-singapore', '782615554', 'ICMP', 'NA', 'NA', '46.165.196.2', 'DE', 'Germany', 'NA', '51', '9', 'https://www.cyber.gov.au/acsc/view-all-content/advisories/advisory-2020-008-copy-paste-compromises-tactics-techniques-and-procedures-used-target-multiple-australian-networks', 'No Cyber Attack Found', 'ak022arbpgrj');";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"96e1d17ae129dc13cd78feb933b7bfe5";a:8:{s:3:"sql";s:378:"-- --------------------------------------------------------
+
+--
+-- Table structure for table `remote_user_detection_accuracy`
+--
+
+CREATE TABLE IF NOT EXISTS `remote_user_detection_accuracy` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `names` varchar(300) NOT NULL,
+  `ratio` varchar(300) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=198;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"1dbb9a047db81bb49a577679916c12ac";a:8:{s:3:"sql";s:599:"--
+-- Dumping data for table `remote_user_detection_accuracy`
+--
+
+INSERT INTO `remote_user_detection_accuracy` (`id`, `names`, `ratio`) VALUES
+(189, 'SVM', '56.35036496350365'),
+(190, 'Random Forest Classifier', '56.35036496350365'),
+(191, 'KNeighborsClassifier', '43.64963503649635'),
+(192, 'Gradient Boosting Classifier', '56.35036496350365'),
+(193, 'SVM', '51.97080291970803'),
+(194, 'Logistic Regression', '51.97080291970803'),
+(195, 'Random Forest Classifier', '51.97080291970803'),
+(196, 'KNeighborsClassifier', '48.02919708029197'),
+(197, 'Gradient Boosting Classifier', '51.97080291970803');";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"4f7dfd4fc895c41b45f064d7f941e3ea";a:8:{s:3:"sql";s:371:"-- --------------------------------------------------------
+
+--
+-- Table structure for table `remote_user_detection_ratio`
+--
+
+CREATE TABLE IF NOT EXISTS `remote_user_detection_ratio` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `names` varchar(300) NOT NULL,
+  `ratio` varchar(300) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"8325a391b42af580840b3e1b22b85423";a:8:{s:3:"sql";s:211:"--
+-- Dumping data for table `remote_user_detection_ratio`
+--
+
+INSERT INTO `remote_user_detection_ratio` (`id`, `names`, `ratio`) VALUES
+(15, 'No Cyber Attack Found', '80.0'),
+(16, 'Cyber Attack Found', '20.0');";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"c65c3b840efcf4ca4f5a4d00af5157be";a:8:{s:3:"sql";s:63:"/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"43fea560fa482de3c9054b449f4fe69a";a:8:{s:3:"sql";s:65:"/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"2594dcf31d540c155d58350f1ebf9b17";a:8:{s:3:"sql";s:63:"/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}}s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;s:12:"display_blob";b:0;s:19:"hide_transformation";b:0;s:3:"pos";i:0;s:8:"max_rows";i:25;s:12:"repeat_cells";i:100;s:18:"table_limit_offset";i:0;s:21:"table_limit_offset_db";s:44:"adaptive_hierarchical_cyber_attack_detection";}git_location|N;is_git_revision|b:0;ConfigFile1|a:2:{s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}s:7:"Servers";a:1:{i:1;a:2:{s:7:"only_db";s:0:"";s:7:"hide_db";s:0:"";}}}debug|a:0:{}__upload_status|a:1:{s:7:"handler";s:47:"PhpMyAdmin\Plugins\Import\Upload\UploadNoplugin";}Import_message|a:2:{s:7:"message";s:245:"<div class="alert alert-success" role="alert">
+  <img src="themes/dot.gif" title="" alt="" class="icon ic_s_success"> <em>Import has been successfully finished, 33 queries executed.</em> (adaptive_hierarchical_cyber_attack_detection.sql)
+</div>
+";s:11:"go_back_url";s:30:"index.php?route=/server/import";}is_multi_query|b:1;sql_history|a:1:{i:0;a:3:{s:2:"db";s:0:"";s:5:"table";s:0:"";s:8:"sqlquery";s:63:"/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;";}}flashMessages|a:0:{}errors|a:0:{}

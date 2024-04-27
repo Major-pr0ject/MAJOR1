@@ -1,0 +1,5 @@
+2024-04-17 16:23:30 0 [Note] Reading of all Master_info entries succeeded
+2024-04-17 16:23:30 0 [Note] Added new Master_info '' to hash table
+2024-04-17 16:23:30 0 [Note] d:\major program\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2024-04-17 16:33:41 8 [Warning] Aborted connection 8 to db: 'adaptive_hierarchical_cyber_attack_detection' user: 'root' host: 'localhost' (Got an error reading communication packets)
